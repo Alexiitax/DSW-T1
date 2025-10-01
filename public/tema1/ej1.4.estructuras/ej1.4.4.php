@@ -9,7 +9,28 @@
     
     <?php
     
+        $diaSemana = "Martes";
+        $mensajeDia = "";
         
+        switch ($diaSemana) {
+            case "Lunes":
+                $mensajeDia = "Inicio de semana laboral.";
+                break;
+            case "Martes":
+            case "Miércoles":
+            case "Jueves":
+                $mensajeDia = "Día de semana.";
+                break;
+            case "Viernes":
+                $mensajeDia = "Fin de semana cerca.";
+                break;
+            case "Sábado":
+            case "Domingo":
+                $mensajeDia = "Fin de semana para descasar.";
+                break;
+        }
+
+        echo "<p id='infoDia'>$mensajeDia</p>";
     
     ?>
 
