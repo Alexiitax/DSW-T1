@@ -1,3 +1,13 @@
+<!-- Ejercicio 3: Operadores de Asignación Combinados:
+Descripción del Problema: Crea ej1.2.3.php donde inicialices una variable 
+$numero con el valor 10. Luego, realiza las siguientes operaciones utilizando operadores de asignación combinados:
+Suma 5 a $numero.
+Multiplica $numero por 2.
+Resta 3 a $numero.
+Divide $numero por 4.
+Para cada operación, imprime el valor final de $numero dentro de un párrafo HTML con la clase class="resultado".
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

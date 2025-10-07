@@ -1,3 +1,17 @@
+<!-- Ejercicio 1: Coerción de Tipos y Operaciones Aritméticas
+Descripción del Problema: Crea un archivo PHP llamado ej1.2.1.php.
+Declara una variable $numero_string con el valor "100" (como cadena).
+Declara una variable $numero_entero con el valor 25 (como entero).
+Realiza una suma de $numero_string y $numero_entero y almacena el resultado en $resultado_suma.
+Imprime el valor de $resultado_suma y su tipo de dato.
+Realiza una concatenación de $numero_string y $numero_entero usando el operador . y almacena el resultado en $resultado_concat.
+Imprime el valor de $resultado_concat y su tipo de dato.
+Salida Esperada:
+Resultado de la suma: 125, Tipo: integer
+Resultado de la concatenación: 10025, Tipo: string
+Pista: Observa cómo PHP convierte los tipos automáticamente en diferentes contextos
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
