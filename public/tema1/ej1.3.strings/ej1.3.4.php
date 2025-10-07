@@ -1,3 +1,15 @@
+<!-- Ejercicio 4. Formateo de cadenas con printf() y sprintf()
+Descripción del problema
+Considera un producto con $item = "Teclado Mecánico", un $costo = 75.99 y un $descuento = 0.15.
+Utiliza printf() para mostrar un mensaje que indique el nombre del producto y su precio final con 
+dos decimales después de aplicar el descuento. El mensaje debe estar dentro de un párrafo HTML con id="mensajeProducto".
+Utiliza sprintf() para crear una cadena que diga "El descuento aplicado es del 15%." y almacénala 
+en la variable $mensajeDescuento. Luego, imprime $mensajeDescuento dentro de un <div> con id="textoDescuento".
+Salida:
+El producto Teclado Mecánico tiene un precio final de 64.59 euros.
+El descuento aplicado es del 15%.
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
